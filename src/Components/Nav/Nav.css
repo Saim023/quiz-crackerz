@@ -1,0 +1,23 @@
+.header {
+}
+.site-name {
+	margin-left: 80px;
+	color: #ffffff;
+}
+.nav-item-container {
+	height: 30px;
+	background-color: #0c94ce;
+	padding: 15px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 50px;
+}
+.nav-item-container a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px;
+}
+.nav-item-container a:hover {
+	color: #ff6f00;
+}
