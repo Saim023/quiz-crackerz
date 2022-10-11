@@ -1,7 +1,8 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Home from './Components/Home/Home';
-import Quiz from './Components/Quiz/Quiz';
+import Topics from './Components/Topics/Topics';
+import Statistics from './Components/Statistics/Statistics';
 import Main from './Layouts/Main/Main';
 
 function App() {
@@ -17,8 +18,16 @@ function App() {
           element: <Home></Home>
         },
         {
-          path: '/quiz',
-          element: <Quiz></Quiz>
+          path: '/topics',
+          element: <Topics></Topics>
+        },
+        {
+          path: '/statistics',
+          element: <Statistics></Statistics>
+        },
+        {
+          path: '*',
+          element: <div>404 Data Not Found!!</div>
         }
       ]
     }

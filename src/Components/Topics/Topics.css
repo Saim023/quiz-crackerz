@@ -1,0 +1,31 @@
+.topics {
+	border: 1px solid lightgrey;
+	padding: 10px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.topic-logo img {
+	height: 320px;
+	background-color: black;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.topic-btn {
+	width: 100%;
+	padding: 8px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+.topic-btn:hover {
+	background-color: #ff4000;
+	color: #ffffff;
+}
