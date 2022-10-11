@@ -5,6 +5,7 @@ import Topics from './Components/Topics/Topics';
 import Statistics from './Components/Statistics/Statistics';
 import Main from './Layouts/Main/Main';
 import Quiz from './Components/Quiz/Quiz';
+import Blogs from './Components/Blogs/Blogs';
 
 function App() {
 
@@ -21,8 +22,8 @@ function App() {
           element: <Home></Home>
         },
         {
-          path: '/topics',
-          element: <Topics></Topics>
+          path: '/blogs',
+          element: <Blogs></Blogs>
         },
         {
           path: '/statistics',

@@ -20,6 +20,7 @@
 	-o-border-radius: 10px;
 }
 .topic-btn {
+	background-color: #bbe3f5;
 	width: 100%;
 	padding: 8px;
 	border-radius: 10px;
@@ -29,6 +30,7 @@
 	-o-border-radius: 10px;
 }
 .topic-btn:hover {
-	background-color: #ff4000;
+	background: #c2e59c;
+	background: linear-gradient(to right, #c2e59c, #64b3f4);
 	color: #ffffff;
 }
