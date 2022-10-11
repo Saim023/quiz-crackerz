@@ -19,6 +19,16 @@
 }
 .quiz-question {
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 20px;
 	width: 700px;
+}
+.question-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.question-icon {
+	width: 24px;
+	height: 24px;
+	color: #1270cd;
 }
