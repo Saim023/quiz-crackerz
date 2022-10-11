@@ -18,3 +18,12 @@
 .orange {
 	color: #f3702e;
 }
+@media only screen and (max-width: 700px) {
+	.header-background {
+		height: 700px;
+	}
+	.background-quotes {
+		padding: 10px;
+		font-size: 25px;
+	}
+}
