@@ -7,7 +7,7 @@ const QuizDetails = ({ qz }) => {
 
     return (
         <div>
-            <h3>{ } {question}</h3>
+            <h3 className='quiz-question'>{ } {question}</h3>
             <div className='quiz-options'>
                 {
                     options.map(option => <form>
