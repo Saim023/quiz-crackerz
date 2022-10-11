@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Topics.css';
 
-const Topics = ({ topic }) => {
+const Topics = ({ topic, }) => {
     const { id, logo, name, total } = topic;
-    console.log(topic)
+
     return (
         <div className='topics'>
             <div className='topic-logo'>
@@ -11,7 +12,10 @@ const Topics = ({ topic }) => {
                 <div>
                     <h1>{name}</h1>
                     <p>Total Quiz: {total}</p>
-                    <button className='topic-btn'>Start Quiz</button>
+                    <Link to={`/quiz/${id}`}>
+
+                        <button className='topic-btn'>Start Quiz</button>
+                    </Link>
                 </div>
             </div>
 
