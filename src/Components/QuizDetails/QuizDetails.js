@@ -10,12 +10,9 @@ const QuizDetails = ({ qz }) => {
             <h3 className='quiz-question'>{ } {question}</h3>
             <div className='quiz-options'>
                 {
-                    options.map(option => <form>
-                        <label for='i'>
-
-                            <input type="radio" name='i' />{option}
-                        </label>
-                    </form>)
+                    options.map(option => <div>
+                        <input type="radio" name={id} />{option}
+                    </div>)
                 }
             </div>
         </div>
